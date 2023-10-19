@@ -6,13 +6,6 @@ jobs:
     steps:
       - uses: "actions/checkout@master"
       - name: "todo-to-issue"
-        uses: "senecajs/todo-to-issue-action@master"
+        uses: "zackbraksa/todo-to-issue-action@master"
         with:
-          REPO: ${{ github.repository }}
-          BEFORE: ${{ github.event.before }}
-          SHA: ${{ github.sha }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LABEL: "TODO:"
-          COMMENT_MARKER: "//"
-          INCLUDE_EXT: ".tsx,.ts,.js,.md"
-        id: "todo"
+          AUTO_ASSIGN: true
