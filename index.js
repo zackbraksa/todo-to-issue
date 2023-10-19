@@ -20,3 +20,6 @@ a = 56;
 
 // TODO: simple abc would be faster
 x = 5;
+
+// TODO: simple op:set would be faster fqefqe
+x = 5;
