@@ -1,16 +1,4 @@
-// TODO: Come up with a more imaginative greeting
+// TODO: Adding sample todo to trigger todo workflow
 function test(x) {
   return x;
 }
-
-// TODO: Adding another todo to trigger github actions
-function test(x) {
-  return x;
-}
-
-// TODO: Adding another todo to trigger github actions
-function test(x) {
-  return x;
-}
-
-// TODO: adding one more todo
