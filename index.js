@@ -3,5 +3,10 @@ function test(x) {
   return x;
 }
 
-// TODO: simple op:set would be faster
+x = 5;
+x = 5;
+x = 5;
+
+// TODO: trigger another automatic issue
+x = 5;
 x = 5;
