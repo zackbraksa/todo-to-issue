@@ -3,7 +3,8 @@ function test(x) {
   return x;
 }
 
-// TODO: one more todo
-
-// TODO: one more todo to force trigger github actions
 x = 5;
+
+// TODO: simple op:set would be faster
+a = 56;
+b = 135;
