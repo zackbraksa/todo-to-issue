@@ -23,3 +23,6 @@ x = 5;
 
 // TODO: simple op:set would be faster fqefqe
 x = 5;
+
+// TODO: one more comment 123
+x = 9;
